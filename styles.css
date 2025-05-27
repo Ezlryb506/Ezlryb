@@ -55,6 +55,14 @@ body {
   transition: background 0.2s, color 0.2s;
 }
 
+/* Tambahkan animasi untuk login dan daftar */
+.login-btn:active,
+.register-btn:active {
+  transform: scale(0.95);
+  background: #e0e0e0;
+  color: #2196f3;
+}
+
 .login-btn:hover,
 .register-btn:hover {
   background: #2196f3;
