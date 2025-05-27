@@ -121,6 +121,14 @@ body {
   text-align: center;
 }
 
+/* styles untuk card about us team member*/
+.about .team {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 .contact form {
   display: flex;
   flex-direction: column;
